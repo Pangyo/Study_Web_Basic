@@ -1,0 +1,1140 @@
+!SESSION 2015-11-11 23:39:05.909 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-11 23:45:05.629
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-11 23:45:05.629
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-11 23:56:15.442 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-11 23:56:45.064
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-11 23:56:45.064
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-11-12 00:02:15.510
+!MESSAGE No valid Android XML Editor Delegate found for file /BlindHelperServer/WebContent/WEB-INF/web.xml [Res null, type null]
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-11-12 00:04:11.410
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-11-12 00:04:11.425
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-11-12 00:04:11.425
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-11-12 00:04:14.454
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.1.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.1.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2015-11-12 00:04:14.454
+!MESSAGE Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.1.jar.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.1.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2015-11-12 00:04:14.470
+!MESSAGE Error reading feature http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-11-12 00:04:15.189
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.1.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.1.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2015-11-12 00:04:15.189
+!MESSAGE Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.1.jar.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.1.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2015-11-12 00:04:15.189
+!MESSAGE Error reading feature http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-11-12 00:04:15.908
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.3.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.3.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2015-11-12 00:04:15.908
+!MESSAGE Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.3.jar.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.3.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2015-11-12 00:04:15.923
+!MESSAGE Error reading feature http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-11-12 00:04:16.658
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.3.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.3.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2015-11-12 00:04:16.658
+!MESSAGE Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.3.jar.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.3.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2015-11-12 00:04:16.673
+!MESSAGE Error reading feature http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v21.feature_2.1.3.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2015-11-12 00:04:17.408
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.4.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.4.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2015-11-12 00:04:17.408
+!MESSAGE Artifact not found: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.4.jar.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.4.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:441)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:398)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:322)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:105)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:74)
+	at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:201)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2015-11-12 00:04:17.408
+!MESSAGE Error reading feature http://public.dhe.ibm.com/software/websphere/wasce/updates/features/com.ibm.wasce.v20.feature_2.1.4.jar.
+
+!ENTRY org.eclipse.help.base 4 0 2015-11-12 00:05:52.364
+!MESSAGE Help index declared, but missing for plugin org.eclipse.wst.jsdt.doc.
+
+!ENTRY org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javadocCompletionProcessor.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_sourcePathProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_queryParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_documentationProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalComputer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_launchingConnectors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_foldingStructureProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalSorters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickFixProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaEditorTextHovers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_breakpointParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_inferrenceSupport.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeContainerPage.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeVariableInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeContainerInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaElementFilters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeUIInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_validationParticipant.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickAssistProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_classpathAttributeConfiguration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2015-11-12 00:06:00.340
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-11-12 00:12:16.914
+!MESSAGE Connection to http://download.eclipse.org/eclipse/updates/4.4/bug445122/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:84)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-11-12 00:13:38.752 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:15:51.683
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:15:51.686
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-11-12 00:18:10.052
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost (2) are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2015-11-12 00:28:41.460 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:30:03.437
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:30:03.437
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-12 00:41:19.886 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-11-12 00:41:46.568
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:41:58.824
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-12 00:41:58.824
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-14 23:14:00.150 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-14 23:14:31.926
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-14 23:14:31.928
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-16 22:40:51.336 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-16 22:41:22.553
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-16 22:41:22.564
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-21 09:57:02.294 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-21 09:57:38.264
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-21 09:57:38.268
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-21 10:04:39.823 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-21 10:05:10.384
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-21 10:05:10.384
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-11-21 10:46:40.626
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2015-11-22 10:28:53.351 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-22 10:30:07.691
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-22 10:30:07.691
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2015-11-22 11:32:08.118
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-11-22 11:33:51.700
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2015-12-07 22:23:40.156 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-07 22:24:10.308
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-07 22:24:10.308
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-08 22:05:25.463 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-08 22:06:12.071
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-08 22:06:12.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.launching 4 105 2015-12-08 22:59:50.390
+!MESSAGE The specified JRE installation does not exist
+
+!ENTRY org.eclipse.jdt.launching 4 105 2015-12-08 23:00:20.057
+!MESSAGE The specified JRE installation does not exist
+
+!ENTRY org.eclipse.jdt.launching 4 105 2015-12-08 23:00:33.371
+!MESSAGE The specified JRE installation does not exist
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:14:57.632
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:14:58.555
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.570
+!MESSAGE Error creating JDBC Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.633
+!MESSAGE Error creating SQL Model Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2015-12-09 00:14:58.711
+!MESSAGE Could not connect to AWS_RDS.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.711
+!MESSAGE Error creating SQL Model Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.711
+!MESSAGE Error creating JDBC Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:14:58.758
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:14:58.758
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.758
+!MESSAGE Error creating SQL Model Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.758
+!MESSAGE Error creating JDBC Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2015-12-09 00:14:58.867
+!MESSAGE Could not connect to AWS_RDS.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.867
+!MESSAGE Error creating SQL Model Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2015-12-09 00:14:58.867
+!MESSAGE Error creating JDBC Connection connection to AWS_RDS. (Error: com.mysql.jdbc.Driver)
+!STACK 0
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.net.FactoryURLClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:327)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.internalCreateConnection(JDBCConnection.java:229)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:120)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:15:51.131
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:16:21.755
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2015-12-09 00:17:25.026
+!MESSAGE Unable to locate JAR/zip in file system as specified by the driver definition: C:\Program Files\Java\jre1.8.0_45\lib\ext\mysql-connector-java-5.1.8-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC Driver. Using the driver properties defined in database profile instead.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-12-09 00:36:00.334
+!MESSAGE No valid Android XML Editor Delegate found for file /BlindHelperServer/WebContent/WEB-INF/web.xml [Res null, type null]
+!SESSION 2015-12-15 21:26:44.726 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:27:09.097
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:27:09.098
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-15 21:30:13.128 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:30:32.549
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:30:32.549
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-15 21:31:52.431 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:32:12.077
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-15 21:32:12.080
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-16 20:20:55.859 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 20:21:28.304
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 20:21:28.306
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-16 21:39:16.433
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.612
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.613
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.615
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.616
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.621
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-12-16 21:39:35.623
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2015-12-16 22:53:13.437
+!MESSAGE Error occurred while removing markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/BlindHelperServer/WebContent/init/Script.sql' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:846)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeRememberedMarkers(SQLUpdater.java:496)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.access$1(SQLUpdater.java:466)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater$2.run(SQLUpdater.java:448)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:444)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.editor.SQLUpdater.removeMarkers(SQLUpdater.java:423)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.stopSQLUpdater(SQLEditor.java:1790)
+	at org.eclipse.datatools.sqltools.sqleditor.SQLEditor.dispose(SQLEditor.java:943)
+	at org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditor.dispose(SQLScrapbookEditor.java:307)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:225)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:379)
+	at sun.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:180)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:158)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:82)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:464)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:144)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.handleEvent(PartRenderingEngine.java:160)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1281)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1599)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1550)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1520)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1645)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$23.run(AbstractTextEditor.java:4333)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-12-16 22:53:13.437
+!MESSAGE Resource '/BlindHelperServer/WebContent/init/Script.sql' does not exist.
+!SESSION 2015-12-16 23:01:16.424 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 23:01:31.475
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 23:01:31.477
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-16 23:10:38.286 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 23:11:11.064
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-16 23:11:11.066
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Yeonuk'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

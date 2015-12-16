@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<%
+	String loginId = (String) session.getAttribute("loginId");
+	if (loginId == null) {
+		request.setAttribute("top", "loginForm.jsp");
+		request.setAttribute("test", "logout");
+	} else {
+		request.setAttribute("top", "logoutForm.jsp");
+		request.setAttribute("test", "login");
+	}
+	request.setAttribute("bottom", "/board/boardList.jsp");
+%>
+<jsp:forward page="template.jsp" />

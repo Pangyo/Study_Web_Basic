@@ -1,0 +1,2 @@
+127.0.0.1 - - [14/Nov/2015:23:18:30 +0900] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Nov/2015:23:18:31 +0900] "GET /BlindHelperServer/init/HelloWorld.jsp HTTP/1.1" 200 381
